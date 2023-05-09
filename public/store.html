@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tailwind.css">
+    <title>Land Rover | Purchase</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="navbar">
+    <!-- Logo -->
+        <a href="index.html"><img src="./images/landrover.png" alt="Land Rover Logo" class="h-32 w-45 mt-20 max-sm:h-20 max-sm:w-25"></a>
+
+        <div class="nav_link">
+            <a href="index.html" class="nav_link absolute lg:flex-row lg:block mt-20 max-sm:mr-20">Home</a><br><br><br><br>
+            <a href="#purchase" class="nav_link hidden lg:block mt-0">Purchase</a>
+            <a href="#account" class="nav_link hidden lg:block mb-2">Account</a>
+        </div>
+    </header>
+
+    <!-- STORE START -->
+    <section id="storeRange" class="store_section">
+        <img src="./images/store.jpg" alt="Store Location" class="w-full h-full object-cover">
+        <div class="car_details transform_50 max-sm:mt-36">
+            <h1 class="model_name">Store Locator</h1>
+            <h2 class="tag_line_first max-sm:bg-white max-sm:bg-opacity-60 max-sm:rounded-md">Find your nearest retailer by entering a zip code, city or dealer name</h2>
+        </div>
+        <div class="input_section">
+            <input type="text" id="large-input" class="text-2xl block w-[55%] p-4 text-gray-900 border border-gray-300 rounded-lg bg-white-50 sm:text-md focus:ring-gray-500 focus:border-gray-500 dark:bg-white-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-gray-500 dark:focus:border-gray-500" 
+                placeholder="ZIP CODE / CITY / NAME OF CONTRACTING PARTY"/>
+            <button type="button" class="button">Further</button>
+        </div>
+
+    </section>
+    <!-- STORE END -->
+</body>
+</html>
